@@ -60,7 +60,7 @@
 &trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp UP          &kp PG_DN      &kp F11   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE   &kp C_BRIGHTNESS_DEC   &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN &mkp MB5     &mmv MOVE_LEFT   &kp LEFT        &kp DOWN         &kp RIGHT    &kp F12  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_MUTE  &kp K_PLAY_PAUSE
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp K_COPY           &kp K_PASTE           &kp K_CUT      &trans     &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp C_AC_COPY           &kp C_AC_PASTE           &kp C_AC_CUT      &trans     &trans
             >;
 
             display-name = "layer1";
