@@ -83,8 +83,8 @@ layers:
   - {t: '`', s: '~'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  - SCRL DOWN
-  - '&ko SCRL_UP'
+  - AC SCROLL DOWN
+  - AC SCROLL UP
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - $$mdi:arrow-up-bold$$
