@@ -86,10 +86,10 @@ layers:
   - AC SCROLL DOWN
   - AC SCROLL UP
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - F11
   - PG UP
   - $$mdi:arrow-up-bold$$
   - PG DN
-  - F11
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -99,10 +99,10 @@ layers:
   - PRINTSCREEN
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - F12
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - F12
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
