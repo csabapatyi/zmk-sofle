@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
@@ -79,12 +79,12 @@ layers:
   - F9
   - F10
   - {t: \, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - {t: '`', s: '~'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  - AC SCROLL DOWN
-  - AC SCROLL UP
+  - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F11
   - PG UP
@@ -92,7 +92,7 @@ layers:
   - PG DN
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SCROLL UP
   - '~'
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
@@ -105,15 +105,15 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - SCROLL DOWN
   - RGB OFF
   - RGB ON
   - RGB EFF
   - RGB EFR
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
-  - RGB BRD
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
@@ -249,14 +249,14 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB OFF
+  - RGB ON
+  - RGB BRI
+  - RGB BRD
+  - RGB EFF
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
+  - RGB SPI
+  - RGB SPD
+  - RGB TOG
   - {type: held}
