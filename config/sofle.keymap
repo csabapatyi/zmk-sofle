@@ -51,7 +51,6 @@
 &kp C_MUTE  &kp CAPSLOCK  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &mo 1     &kp ENTER        &kp BACKSPACE  &kp ENTER  &mo 2      &kp DELETE  &mo 3
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
         };
 
