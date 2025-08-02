@@ -4,7 +4,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
@@ -75,7 +74,8 @@
 &trans     &trans     &trans    &trans     &trans    &trans      &mmv MOVE_RIGHT  &trans     &trans          &sys_reset      &soft_off        &bootloader  &trans
 &trans     &trans     &trans    &trans     &trans    &trans      &mkp LCLK        &trans     &trans          &trans          &trans           &trans
             >;
-
+            
+            display-name = "layer2";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -88,6 +88,7 @@
 &trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF    &mkp LCLK        &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_TOG  &trans
             >;
 
+            display-name = "layer3";
             sensor-bindings = <&scroll_encoder>;
         };
     };
